@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace MobilityScm.Vertical.Servicios
 {
@@ -25,6 +26,8 @@ namespace MobilityScm.Vertical.Servicios
         void MensajeExito(string mensaje);
         void MensajeErrorDialogo(string mensaje);
 
+        void MensajeListaDeErrorDialogo(List<string> listaErrores);
+
         string ObtenerUsuario();
 
         string ObtenerNombreUsuario();
@@ -39,7 +42,7 @@ namespace MobilityScm.Vertical.Servicios
 
         string ObtenerDireccionBaseDeApi();
 
-        void MensajeExito(string mensaje,bool mostrarAlerta);
+        void MensajeExito(string mensaje, bool mostrarAlerta);
 
         string ObtenerDominioDeUsuario();
 
@@ -50,5 +53,9 @@ namespace MobilityScm.Vertical.Servicios
         string ObtenerContraseniaDeBaseDeDatos();
 
         string ObtenerServerIp();
+
+        void MostrarDialogoDeCargando();
+
+        void CerrarDialogoDeCargando();
     }
 }

@@ -14,7 +14,8 @@ namespace MobilityScm.Vertical.Entidades
 
         public object Dato
         {
-           set
+            get { return _dato; }
+            set
             {
                 DbData = null;
                 _dato = new object();

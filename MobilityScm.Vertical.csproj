@@ -5,16 +5,16 @@
     <TargetFramework>net40</TargetFramework>
 
     <PackageId>MobilityScm.Vertical</PackageId>
-    <Version>1.0.0</Version>
+    <Version>1.1.1</Version>
     <Authors>Procesos Eficientes</Authors>
     <Company>Procesos Eficientes</Company>
-    <PackageDescription>Paquetes de MobilityScm.Vertical</PackageDescription>
+    <PackageDescription>Paquetes de MobilityScm.Vertical y .Vertical.Expeciones</PackageDescription>
     <RepositoryUrl>https://github.com/procesoseficientes/MobilityScm.Vertical</RepositoryUrl>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="MobilityScm.Modelo.TipoYEstados" Version="1.0.1" />
+    <PackageReference Include="MobilityScm.Modelo.TipoYEstados" Version="1.0.2" />
   </ItemGroup>
 
   <ItemGroup>
