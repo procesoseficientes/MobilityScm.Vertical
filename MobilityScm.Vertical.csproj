@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net40</TargetFramework>
+
+    <PackageId>MobilityScm.Vertical</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Procesos Eficientes</Authors>
+    <Company>Procesos Eficientes</Company>
+    <PackageDescription>Paquetes de MobilityScm.Vertical</PackageDescription>
+    <RepositoryUrl>https://github.com/procesoseficientes/MobilityScm.Vertical</RepositoryUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MobilityScm.Modelo.TipoYEstados" Version="1.0.1" />
+  </ItemGroup>
+
+</Project>
